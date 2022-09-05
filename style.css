@@ -1,0 +1,92 @@
+body {
+  background: black;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 40px auto 0 auto;
+}
+
+.heading-primary {
+  color: lightpink;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.sub-heading {
+  width: 41rem;
+  color: pink;
+  margin: 0 auto;
+}
+
+.heading-secondary {
+  color: white;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 8px;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+
+.section {
+  color:white;
+}
+
+table {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 100%;
+}
+
+#RoundedTable td, #RoundedTable th {
+border: 1px solid lightpink;
+/* border-radius: 10px; */
+padding: 3px;
+}
+
+th {
+  color: #fff;
+  background-color: lightpink;
+  font-size: 20px;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+td {
+  color: #040c16;
+  background-color: #e9edf2;
+  font-size: 18px;
+  text-align: left;
+  padding: 20px;
+  transition: background-color .3s;
+}
+
+#RoundedTable td:hover {
+  background-color: lightpink;
+  /* border: 1px solid white; */
+  transition: background-color .3s;
+  color: white;
+}
+
+footer {
+  background-color: lightpink;
+  position: relative;
+  top: 246px;
+}
+
+footer > p {
+  opacity: 50%;
+  padding: 6px;
+  transition: opacity .5s;
+}
+
+footer > p:hover {
+  opacity: 100%;
+  border-color: white;
+  transition: opacity .5s;
+}
