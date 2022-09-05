@@ -75,14 +75,15 @@ td {
 
 footer {
   background-color: lightpink;
-  position: relative;
-  top: 246px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 footer > p {
   opacity: 50%;
-  padding: 6px;
   transition: opacity .5s;
+  margin: 5px;
 }
 
 footer > p:hover {
